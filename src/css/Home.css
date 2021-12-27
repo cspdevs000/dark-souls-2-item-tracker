@@ -11,6 +11,7 @@
     justify-content: space-around;
     width: 100%;
     border-bottom: 1px solid lightgray;
+    font-size: smaller;
 }
 .navbar-menu {
     flex-grow: 0.5;

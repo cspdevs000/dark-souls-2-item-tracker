@@ -23,6 +23,15 @@ class Weapons extends Component {
                         <a href="/weapons" className="navbar-item">
                             <span>Weapons</span>
                         </a>
+                        <a href="/armor" className="navbar-item">
+                            <span>Armor</span>
+                        </a>
+                        <a href="/consumables" className="navbar-item">
+                            <span>Consumables</span>
+                        </a>
+                        <a href="/keys" className="navbar-item">
+                            <span>Keys</span>
+                        </a>
                     </div>
                 </div>
                 <br></br><br></br>

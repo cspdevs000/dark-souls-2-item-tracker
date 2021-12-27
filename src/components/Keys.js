@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Home.css'
 
-class Home extends Component {
+class Keys extends Component {
     render() {
         return (
             <div className="master">
@@ -35,10 +35,10 @@ class Home extends Component {
                     </div>
                 </div>
                 <br></br><br></br>
-                <h1>Dark Souls 2: Item Tracker</h1>
+                <h1>All Key Items</h1>
             </div>
         );
     }
 }
 
-export default Home;
+export default Keys;
