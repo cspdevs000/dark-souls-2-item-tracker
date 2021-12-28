@@ -1,0 +1,61 @@
+:root {
+    --bg: #071e36;
+    --card-bg: #041221;
+  }
+  body {
+    background: var(--bg);
+  }
+  .box {
+    background: var(--card-bg);
+  }
+  input::placeholder {
+    color: antiquewhite;
+  }
+
+* {
+    text-align: center;
+    color: brown;
+    background-color: whitesmoke;
+}
+.section {
+    background-color: rgba(207, 204, 204, 0.527);
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    font-size: smaller;
+}
+.navbar-menu {
+    flex-grow: 0.5;
+    justify-content: center;
+}
+.navbar-menu .navbar-item {
+    flex-grow: 1;
+    justify-content: center;
+}
+  
+  /* Card start*/
+  .card {
+    overflow: hidden;
+    background: ghostwhite;
+    color: var(--bg);
+  }
+
+  .title {
+    white-space: nowrap;
+  }
+  
+  .cardlarge {
+    /* border: black 1px; */
+    border-radius: 5px;
+  }
+  
+  .title.no-padding {
+    margin-bottom: 0 !important;
+  }
