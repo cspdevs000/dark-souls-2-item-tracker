@@ -33,7 +33,6 @@ export default App;
 
 
 //////TODO////////
-// build API
 // seed data
 // make a singular child component with the card JSX for each parent, and link them together
 // make props for the children of each plural component
