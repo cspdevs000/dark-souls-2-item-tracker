@@ -10,8 +10,10 @@ import Weapons from "./components/Weapons";
 import Armors from "./components/Armors";
 import Keys from "./components/Keys";
 import Consumables from "./components/Consumables";
+import SearchPage from "./components/SearchPage";
 
 class App extends Component {
+
   render() {
     return (
       <Router>
@@ -22,6 +24,7 @@ class App extends Component {
           <Route path='/armor' element={<Armors/>}/>
           <Route path='/keys' element={<Keys/>}/>
           <Route path='/consumables' element={<Consumables/>}/>
+          <Route path='/search' element={<SearchPage/>}/>
         </Routes>
         </div>
       </Router>
@@ -33,9 +36,8 @@ export default App;
 
 
 //////TODO////////
-// seed data
-// make a singular child component with the card JSX for each parent, and link them together
-// make props for the children of each plural component
 // make search functional
+// seed more data
+// fix styling of images / find better images
 // make areas component that list the items you can get w links to the item
 // make a saved items component for the user (if auth ever happens)
